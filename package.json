@@ -1,0 +1,28 @@
+{
+  "name": "week18hw",
+  "version": "1.0.0",
+  "description": "Week 18 Homework Assignment - All the News That's Fit to Scrape",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajkani/All-the-News-That-s-Fit-to-Scrape.git"
+  },
+  "author": "sajkani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sajkani/All-the-News-That-s-Fit-to-Scrape/issues"
+  },
+  "homepage": "https://github.com/sajkani/All-the-News-That-s-Fit-to-Scrape#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cheerio": "^0.22.0",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.8.7",
+    "morgan": "^1.8.1",
+    "request": "^2.81.0"
+  }
+}

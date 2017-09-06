@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/bulldogs");
+mongoose.connect("mongodb://localhost/tribe");
 var db = mongoose.connection;
 
 db.on("error", function (error) {

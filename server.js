@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/tribe");
+mongoose.connect("mongodb://heroku_c9ggsxbl:aipipmbj65ved504dgvuv1pn76@ds127564.mlab.com:27564/heroku_c9ggsxbl");
 var db = mongoose.connection;
 
 db.on("error", function (error) {
